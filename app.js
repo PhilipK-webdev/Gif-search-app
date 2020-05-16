@@ -227,9 +227,9 @@ $(document).ready(function () {
       .catch(function (res) {
         $("#relevantReddit").text(
           res.responseJSON.message +
-            " " +
-            res.responseJSON.cod +
-            " Error from GET Response Reddit"
+          " " +
+          res.responseJSON.cod +
+          " Error from GET Response Reddit"
         );
         $("#seeMoreAt").html("");
       });
